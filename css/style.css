@@ -1,0 +1,90 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #d3f3af, #ffffff);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #2e7d32;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #81fc85;
+  padding: 80px 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+
+
+/* Cards container */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Individual card */
+.card {
+  background-color: #e8f5e9;   /* light green so text is visible */
+  width: 260px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image */
+.card img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+/* Card heading */
+.card h3 {
+  color: #1b5e20;   /* dark green for contrast */
+  margin-bottom: 10px;
+}
+
+/* Card text */
+.card p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Hover effect (optional but nice) */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
