@@ -220,3 +220,21 @@ button:hover {
 .materials-section {
   padding: 20px;
 }
+.card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s ease;
+}
+.card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s ease;
+}
