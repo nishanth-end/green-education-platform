@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #d3f3af, #ffffff);
-  font-size: 18px;   /* ⬅ increased base font size */
+  font-size: 24px;   /* ⬅ increased base font size */
 }
 
 nav {
