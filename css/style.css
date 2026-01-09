@@ -266,3 +266,70 @@ button:hover {
   transform: translateY(-8px);
   transition: 0.3s ease;
 }
+
+/* ===== Video Page Layout ===== */
+
+.video-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Video title */
+.video-page h1 {
+  font-size: 36px;
+  color: #1b5e20;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Short description under title */
+.video-page p {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Video container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Make iframe responsive */
+.video-container iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 390px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Points to ponder section */
+.ponder-box {
+  background-color: #e8f5e9;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Ponder heading */
+.ponder-box h2 {
+  font-size: 26px;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+/* Ponder list */
+.ponder-box ul {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.ponder-box li {
+  margin-bottom: 10px;
+}
